@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>Formulario</h1>
+      <h4><center>Gonzalez Mora Juan Manuel</center></h4>
+      <form id="formulario" novalidate>
+        <input
+          class="form-control mb-2"
+          name="userName"
+          placeholder="Nombre"
+          autocomplete="off"
+          id="userName"
+          type="text"
+          value=""
+        />
+        <input
+          class="form-control mb-2"
+          name="userApellido"
+          placeholder="Apellido"
+          autocomplete="off"
+          id="userApellido"
+          type="text"
+          value=""
+        />
+        <input
+        class="form-control mb-2"
+        name="userEdad"
+        placeholder="Celular"
+        autocomplete="off"
+        id="userEdad"
+        type="text"
+        value=""
+        />
+        <input
+          tclass="form-control mb-2"
+          name="userEmail"
+          placeholder="Correo Electronico"
+          id="userEmail"
+          autocomplete="off"
+          type="email"
+          value=""
+        />
+        <button class="btn btn-primary btn-block btn-large" type="submit">Enviar</button>
+       
+      </form>
+      <input type="button" value="Actualizar" onclick="location.reload()" />
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
